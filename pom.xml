@@ -359,8 +359,8 @@
                 <module>thucydides-core</module>
                 <module>thucydides-junit</module>
                 <module>maven-thucydides-plugin</module>
-                <module>thucydides-easyb-plugin</module>
-                <module>thucydides-browsermob-plugin</module>
+                <!--<module>thucydides-easyb-plugin</module>-->
+                <!--<module>thucydides-browsermob-plugin</module>-->
             </modules>
         </profile>
         <profile>
