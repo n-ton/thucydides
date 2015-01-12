@@ -913,6 +913,11 @@ public class WebElementFacadeImpl implements WebElementFacade {
 	}
 
     @Override
+    public Point getLocationOnScreenOnceScrolledIntoView() {
+        return null;
+    }
+
+    @Override
 	public Coordinates getCoordinates() {
 		return  ((Locatable) getElement()).getCoordinates();
 	}

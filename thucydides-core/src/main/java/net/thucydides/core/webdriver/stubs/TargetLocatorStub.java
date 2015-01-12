@@ -28,10 +28,10 @@ public class TargetLocatorStub implements WebDriver.TargetLocator {
         return webDriver;
     }
 
-    @Override
-    public WebDriver parentFrame() {
-        return webDriver;
-    }
+//    @Override
+//    public WebDriver parentFrame() {
+//        return webDriver;
+//    }
 
     @Override
     public WebDriver window(String nameOrHandle) {
